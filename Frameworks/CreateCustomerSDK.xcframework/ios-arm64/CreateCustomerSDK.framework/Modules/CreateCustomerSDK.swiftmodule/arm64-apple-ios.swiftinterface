@@ -14,6 +14,11 @@ import _SwiftConcurrencyShims
 }
 public struct FPDigitalBankingAdditionalInfo : Swift.Codable {
   public static var phoneNumber: Swift.String
+  public let deviceType: Swift.String
+  public let mobileNumber: Swift.String
+  public let platform: Swift.String
+  public let sourceVersion: Swift.String
+  public init?(deviceType: Swift.String? = nil, mobileNumber: Swift.String? = nil, platform: Swift.String? = nil, sourceVersion: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

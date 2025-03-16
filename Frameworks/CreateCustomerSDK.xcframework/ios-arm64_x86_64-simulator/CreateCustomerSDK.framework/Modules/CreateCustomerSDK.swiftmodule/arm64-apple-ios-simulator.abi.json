@@ -187,6 +187,271 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deviceType",
+            "printedName": "deviceType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceTypeSSvp",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceTypeSSvp",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceTypeSSvg",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceTypeSSvg",
+                "moduleName": "CreateCustomerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileNumber",
+            "printedName": "mobileNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV12mobileNumberSSvp",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV12mobileNumberSSvp",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV12mobileNumberSSvg",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV12mobileNumberSSvg",
+                "moduleName": "CreateCustomerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV8platformSSvp",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV8platformSSvp",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV8platformSSvg",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV8platformSSvg",
+                "moduleName": "CreateCustomerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceVersion",
+            "printedName": "sourceVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV13sourceVersionSSvp",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV13sourceVersionSSvp",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV13sourceVersionSSvg",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV13sourceVersionSSvg",
+                "moduleName": "CreateCustomerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(deviceType:mobileNumber:platform:sourceVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingAdditionalInfo",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                    "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceType12mobileNumber8platform13sourceVersionACSgSSSg_A3Itcfc",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV10deviceType12mobileNumber8platform13sourceVersionACSgSSSg_A3Itcfc",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
