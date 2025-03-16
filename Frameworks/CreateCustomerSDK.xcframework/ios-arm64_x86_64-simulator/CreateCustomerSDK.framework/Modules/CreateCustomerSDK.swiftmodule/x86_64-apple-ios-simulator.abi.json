@@ -1,0 +1,4046 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CreateCustomerSDK",
+    "printedName": "CreateCustomerSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Utils",
+        "printedName": "Utils",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK5UtilsC",
+        "mangledName": "$s17CreateCustomerSDK5UtilsC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPDigitalBankingAdditionalInfo",
+        "printedName": "FPDigitalBankingAdditionalInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvpZ",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvpZ",
+            "moduleName": "CreateCustomerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvgZ",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvgZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvsZ",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvsZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvMZ",
+                "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV11phoneNumberSSvMZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV",
+        "mangledName": "$s17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPDigitalBankingProcessEnum",
+        "printedName": "FPDigitalBankingProcessEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "basicInfo",
+            "printedName": "basicInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.FPDigitalBankingProcessEnum.Type) -> CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingProcessEnum",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                    "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FPDigitalBankingProcessEnum",
+                        "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                        "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO9basicInfoyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO9basicInfoyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "createCustomer",
+            "printedName": "createCustomer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.FPDigitalBankingProcessEnum.Type) -> CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingProcessEnum",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                    "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FPDigitalBankingProcessEnum",
+                        "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                        "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO06createB0yA2CmF",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO06createB0yA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "openDeposit",
+            "printedName": "openDeposit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.FPDigitalBankingProcessEnum.Type) -> CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingProcessEnum",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                    "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FPDigitalBankingProcessEnum",
+                        "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                        "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO11openDeposityA2CmF",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO11openDeposityA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "getCard",
+            "printedName": "getCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.FPDigitalBankingProcessEnum.Type) -> CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingProcessEnum",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                    "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FPDigitalBankingProcessEnum",
+                        "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                        "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO7getCardyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO7getCardyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPDigitalBankingProcessEnum",
+                    "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                    "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueACSgSS_tcfc",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueSSvp",
+            "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueSSvp",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueSSvg",
+                "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO8rawValueSSvg",
+                "moduleName": "CreateCustomerSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO",
+        "mangledName": "$s17CreateCustomerSDK27FPDigitalBankingProcessEnumO",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPStartCreateCustomerProcessStartrRequestBodyParams",
+        "printedName": "FPStartCreateCustomerProcessStartrRequestBodyParams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "printedName": "CreateCustomerSDK.FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV",
+        "mangledName": "$s17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PerformTaskZoomIdExtraData",
+        "printedName": "PerformTaskZoomIdExtraData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PerformTaskZoomIdExtraData",
+                "printedName": "CreateCustomerSDK.PerformTaskZoomIdExtraData",
+                "usr": "s:17CreateCustomerSDK26PerformTaskZoomIdExtraDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17CreateCustomerSDK26PerformTaskZoomIdExtraDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s17CreateCustomerSDK26PerformTaskZoomIdExtraDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK26PerformTaskZoomIdExtraDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s17CreateCustomerSDK26PerformTaskZoomIdExtraDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CreateCustomerSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17CreateCustomerSDK26PerformTaskZoomIdExtraDataV",
+        "mangledName": "$s17CreateCustomerSDK26PerformTaskZoomIdExtraDataV",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO10invalidURLyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO10invalidURLyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "requestFailed",
+            "printedName": "requestFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO13requestFailedyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO13requestFailedyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "responseUnsuccessful",
+            "printedName": "responseUnsuccessful",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO20responseUnsuccessfulyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO20responseUnsuccessfulyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "dataNotFound",
+            "printedName": "dataNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO12dataNotFoundyA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO12dataNotFoundyA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO08decodingE0yA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO08decodingE0yA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> (Swift.Int) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> CreateCustomerSDK.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO06serverE0yACSi_tcACmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO06serverE0yACSi_tcACmF",
+            "moduleName": "CreateCustomerSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CreateCustomerSDK.NetworkError.Type) -> CreateCustomerSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "CreateCustomerSDK.NetworkError",
+                    "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CreateCustomerSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "CreateCustomerSDK.NetworkError",
+                        "usr": "s:17CreateCustomerSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17CreateCustomerSDK12NetworkErrorO07unknownE0yA2CmF",
+            "mangledName": "$s17CreateCustomerSDK12NetworkErrorO07unknownE0yA2CmF",
+            "moduleName": "CreateCustomerSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17CreateCustomerSDK12NetworkErrorO",
+        "mangledName": "$s17CreateCustomerSDK12NetworkErrorO",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Headers",
+        "printedName": "Headers",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK7HeadersC",
+        "mangledName": "$s17CreateCustomerSDK7HeadersC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActiveOpenAcountViewModel",
+        "printedName": "ActiveOpenAcountViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK25ActiveOpenAcountViewModelC",
+        "mangledName": "$s17CreateCustomerSDK25ActiveOpenAcountViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardCommissionViewModel",
+        "printedName": "CardCommissionViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK23CardCommissionViewModelC",
+        "mangledName": "$s17CreateCustomerSDK23CardCommissionViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckPaymentViewModel",
+        "printedName": "CheckPaymentViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK21CheckPaymentViewModelC",
+        "mangledName": "$s17CreateCustomerSDK21CheckPaymentViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CreateCustomerPreStartParametersViewModel",
+        "printedName": "CreateCustomerPreStartParametersViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK0aB27PreStartParametersViewModelC",
+        "mangledName": "$s17CreateCustomerSDK0aB27PreStartParametersViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPDigitalBankingFormGroupViewModel",
+        "printedName": "FPDigitalBankingFormGroupViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK34FPDigitalBankingFormGroupViewModelC",
+        "mangledName": "$s17CreateCustomerSDK34FPDigitalBankingFormGroupViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPDigitalBankingFormGroupParameterViewModel",
+        "printedName": "FPDigitalBankingFormGroupParameterViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK43FPDigitalBankingFormGroupParameterViewModelC",
+        "mangledName": "$s17CreateCustomerSDK43FPDigitalBankingFormGroupParameterViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValueViewModel",
+        "printedName": "ValueViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK14ValueViewModelC",
+        "mangledName": "$s17CreateCustomerSDK14ValueViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnumDefinitionValueViewModel",
+        "printedName": "EnumDefinitionValueViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK28EnumDefinitionValueViewModelC",
+        "mangledName": "$s17CreateCustomerSDK28EnumDefinitionValueViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomerApprovedInfoValidationCheckViewModel",
+        "printedName": "CustomerApprovedInfoValidationCheckViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK0B36ApprovedInfoValidationCheckViewModelC",
+        "mangledName": "$s17CreateCustomerSDK0B36ApprovedInfoValidationCheckViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomerApprovedInfoViewModel",
+        "printedName": "CustomerApprovedInfoViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK0B21ApprovedInfoViewModelC",
+        "mangledName": "$s17CreateCustomerSDK0B21ApprovedInfoViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPCreateCustomerViewModel",
+        "printedName": "FPCreateCustomerViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPCreateCustomerViewModel",
+                "printedName": "CreateCustomerSDK.FPCreateCustomerViewModel",
+                "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvpZ",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvpZ",
+            "moduleName": "CreateCustomerSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPCreateCustomerViewModel",
+                    "printedName": "CreateCustomerSDK.FPCreateCustomerViewModel",
+                    "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvgZ",
+                "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvgZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FPCreateCustomerViewModel",
+                    "printedName": "CreateCustomerSDK.FPCreateCustomerViewModel",
+                    "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvsZ",
+                "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvsZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvMZ",
+                "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC6sharedACvMZ",
+                "moduleName": "CreateCustomerSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "createCustomerPreStartParameters",
+            "printedName": "createCustomerPreStartParameters(additionalInfoDto:processEnum:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingProcessEnum",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.CreateCustomerPreStartParametersViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.CreateCustomerPreStartParametersViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CreateCustomerPreStartParametersViewModel",
+                        "printedName": "CreateCustomerSDK.CreateCustomerPreStartParametersViewModel",
+                        "usr": "s:17CreateCustomerSDK0aB27PreStartParametersViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC06createB18PreStartParameters17additionalInfoDto11processEnum10completionyAA026FPDigitalBankingAdditionalL0V_AA0qr7ProcessO0Oys6ResultOyAA0abhijeF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC06createB18PreStartParameters17additionalInfoDto11processEnum10completionyAA026FPDigitalBankingAdditionalL0V_AA0qr7ProcessO0Oys6ResultOyAA0abhijeF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "newCustomerMobileSignUp",
+            "printedName": "newCustomerMobileSignUp(mobileNo:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.NewCustomerMobileSignUpViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.NewCustomerMobileSignUpViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NewCustomerMobileSignUpViewModel",
+                        "printedName": "CreateCustomerSDK.NewCustomerMobileSignUpViewModel",
+                        "usr": "s:17CreateCustomerSDK03NewB21MobileSignUpViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC03newB12MobileSignUp8mobileNo10completionySS_ys6ResultOyAA03NewbhijeF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC03newB12MobileSignUp8mobileNo10completionySS_ys6ResultOyAA03NewbhijeF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "newCustomerMobileVerify",
+            "printedName": "newCustomerMobileVerify(code:deviceId:deviceInfo:mobileNo:platform:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.NewCustomerMobileVerifyViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.NewCustomerMobileVerifyViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NewCustomerMobileVerifyViewModel",
+                        "printedName": "CreateCustomerSDK.NewCustomerMobileVerifyViewModel",
+                        "usr": "s:17CreateCustomerSDK03NewB21MobileVerifyViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC03newB12MobileVerify4code8deviceId0K4Info8mobileNo8platform10completionySS_S4Sys6ResultOyAA03NewbhieF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC03newB12MobileVerify4code8deviceId0K4Info8mobileNo8platform10completionySS_S4Sys6ResultOyAA03NewbhieF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCreateCustomerProcessStart",
+            "printedName": "startCreateCustomerProcessStart(additionalInfoDto:processEnum:requestBody:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingProcessEnum",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "printedName": "CreateCustomerSDK.FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.StartCreateCustomerProcessViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.StartCreateCustomerProcessViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartCreateCustomerProcessViewModel",
+                        "printedName": "CreateCustomerSDK.StartCreateCustomerProcessViewModel",
+                        "usr": "s:17CreateCustomerSDK05StartaB16ProcessViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC05startaB12ProcessStart17additionalInfoDto11processEnum11requestBody10completionyAA026FPDigitalBankingAdditionalK0V_AA0rshN0OAA07FPStartabh13StartrRequestP6ParamsVys6ResultOyAA0iabheF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC05startaB12ProcessStart17additionalInfoDto11processEnum11requestBody10completionyAA026FPDigitalBankingAdditionalK0V_AA0rshN0OAA07FPStartabh13StartrRequestP6ParamsVys6ResultOyAA0iabheF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customerApprovedInfoSave",
+            "printedName": "customerApprovedInfoSave(additionalInfo:customerNumber:depositNumber:processType:referenceNumber:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingProcessEnum",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.CustomerApprovedInfoViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.CustomerApprovedInfoViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerApprovedInfoViewModel",
+                        "printedName": "CreateCustomerSDK.CustomerApprovedInfoViewModel",
+                        "usr": "s:17CreateCustomerSDK0B21ApprovedInfoViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC24customerApprovedInfoSave010additionalI00G6Number07depositL011processType09referenceL010completionyAA026FPDigitalBankingAdditionalI0V_S2SAA0rS11ProcessEnumOSSys6ResultOyAA0bhieF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC24customerApprovedInfoSave010additionalI00G6Number07depositL011processType09referenceL010completionyAA026FPDigitalBankingAdditionalI0V_S2SAA0rS11ProcessEnumOSSys6ResultOyAA0bhieF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBasicInfo",
+            "printedName": "getBasicInfo(additionalInfoDto:processEnum:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingProcessEnum",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.GetBasicInfoViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.GetBasicInfoViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetBasicInfoViewModel",
+                        "printedName": "CreateCustomerSDK.GetBasicInfoViewModel",
+                        "usr": "s:17CreateCustomerSDK21GetBasicInfoViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC12getBasicInfo010additionalI3Dto11processEnum10completionyAA026FPDigitalBankingAdditionalI0V_AA0op7ProcessM0Oys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC12getBasicInfo010additionalI3Dto11processEnum10completionyAA026FPDigitalBankingAdditionalI0V_AA0op7ProcessM0Oys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performTask",
+            "printedName": "performTask(additionalInfoDto:token:requestBody:zoomIdExtraDataRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "printedName": "CreateCustomerSDK.FPStartCreateCustomerProcessStartrRequestBodyParams",
+                "usr": "s:17CreateCustomerSDK07FPStartaB30ProcessStartrRequestBodyParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PerformTaskZoomIdExtraData",
+                "printedName": "CreateCustomerSDK.PerformTaskZoomIdExtraData",
+                "usr": "s:17CreateCustomerSDK26PerformTaskZoomIdExtraDataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.PerformTaskViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.PerformTaskViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PerformTaskViewModel",
+                        "printedName": "CreateCustomerSDK.PerformTaskViewModel",
+                        "usr": "s:17CreateCustomerSDK20PerformTaskViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC11performTask17additionalInfoDto5token11requestBody22zoomIdExtraDataRequest10completionyAA026FPDigitalBankingAdditionalJ0V_SSAA07FPStartab13ProcessStartrsN6ParamsVAA07Performh4ZoompqR0Vys6ResultOyAA07PerformheF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC11performTask17additionalInfoDto5token11requestBody22zoomIdExtraDataRequest10completionyAA026FPDigitalBankingAdditionalJ0V_SSAA07FPStartab13ProcessStartrsN6ParamsVAA07Performh4ZoompqR0Vys6ResultOyAA07PerformheF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startOpenDepositProcess",
+            "printedName": "startOpenDepositProcess(additionalInfoDto:processEnum:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingProcessEnum",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingProcessEnum",
+                "usr": "s:17CreateCustomerSDK27FPDigitalBankingProcessEnumO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.StartOpenDepositProcessViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.StartOpenDepositProcessViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartOpenDepositProcessViewModel",
+                        "printedName": "CreateCustomerSDK.StartOpenDepositProcessViewModel",
+                        "usr": "s:17CreateCustomerSDK32StartOpenDepositProcessViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC23startOpenDepositProcess17additionalInfoDto11processEnum10completionyAA026FPDigitalBankingAdditionalL0V_AA0qrjO0Oys6ResultOyAA05StarthijeF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC23startOpenDepositProcess17additionalInfoDto11processEnum10completionyAA026FPDigitalBankingAdditionalL0V_AA0qrjO0Oys6ResultOyAA05StarthijeF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customerApprovedInfoValidationCheck",
+            "printedName": "customerApprovedInfoValidationCheck(nationalCode:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.CustomerApprovedInfoValidationCheckViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.CustomerApprovedInfoValidationCheckViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomerApprovedInfoValidationCheckViewModel",
+                        "printedName": "CreateCustomerSDK.CustomerApprovedInfoValidationCheckViewModel",
+                        "usr": "s:17CreateCustomerSDK0B36ApprovedInfoValidationCheckViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC35customerApprovedInfoValidationCheck12nationalCode10completionySS_ys6ResultOyAA0bhijkeF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC35customerApprovedInfoValidationCheck12nationalCode10completionySS_ys6ResultOyAA0bhijkeF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "guideApiCall",
+            "printedName": "guideApiCall(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.GuideViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.GuideViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GuideViewModel",
+                        "printedName": "CreateCustomerSDK.GuideViewModel",
+                        "usr": "s:17CreateCustomerSDK14GuideViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC12guideApiCall10completionyys6ResultOyAA05GuideeF0Cs5Error_pGc_tF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC12guideApiCall10completionyys6ResultOyAA05GuideeF0Cs5Error_pGc_tF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activeOpenAcount",
+            "printedName": "activeOpenAcount(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.ActiveOpenAcountViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.ActiveOpenAcountViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveOpenAcountViewModel",
+                        "printedName": "CreateCustomerSDK.ActiveOpenAcountViewModel",
+                        "usr": "s:17CreateCustomerSDK25ActiveOpenAcountViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC16activeOpenAcount10completionyys6ResultOyAA06ActivehieF0Cs5Error_pGc_tF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC16activeOpenAcount10completionyys6ResultOyAA06ActivehieF0Cs5Error_pGc_tF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCities",
+            "printedName": "getCities(stateId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[CreateCustomerSDK.GetCitiesViewModel], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[CreateCustomerSDK.GetCitiesViewModel], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CreateCustomerSDK.GetCitiesViewModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetCitiesViewModel",
+                            "printedName": "CreateCustomerSDK.GetCitiesViewModel",
+                            "usr": "s:17CreateCustomerSDK18GetCitiesViewModelC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC9getCities7stateId10completionySi_ys6ResultOySayAA03GetheF0CGs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC9getCities7stateId10completionySi_ys6ResultOySayAA03GetheF0CGs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStates",
+            "printedName": "getStates(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[CreateCustomerSDK.GetStatesViewModel], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[CreateCustomerSDK.GetStatesViewModel], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CreateCustomerSDK.GetStatesViewModel]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetStatesViewModel",
+                            "printedName": "CreateCustomerSDK.GetStatesViewModel",
+                            "usr": "s:17CreateCustomerSDK18GetStatesViewModelC"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC9getStates10completionyys6ResultOySayAA03GetheF0CGs5Error_pGc_tF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC9getStates10completionyys6ResultOySayAA03GetheF0CGs5Error_pGc_tF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPayment",
+            "printedName": "checkPayment(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.CheckPaymentViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.CheckPaymentViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckPaymentViewModel",
+                        "printedName": "CreateCustomerSDK.CheckPaymentViewModel",
+                        "usr": "s:17CreateCustomerSDK21CheckPaymentViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC12checkPayment10completionyys6ResultOyAA05CheckheF0Cs5Error_pGc_tF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC12checkPayment10completionyys6ResultOyAA05CheckheF0Cs5Error_pGc_tF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserAddresses",
+            "printedName": "getUserAddresses(additionalInfoDto:cif:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.GetUserAddressesViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.GetUserAddressesViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetUserAddressesViewModel",
+                        "printedName": "CreateCustomerSDK.GetUserAddressesViewModel",
+                        "usr": "s:17CreateCustomerSDK25GetUserAddressesViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC16getUserAddresses17additionalInfoDto3cif10completionyAA026FPDigitalBankingAdditionalK0V_SSys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC16getUserAddresses17additionalInfoDto3cif10completionyAA026FPDigitalBankingAdditionalK0V_SSys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPostalCode",
+            "printedName": "getPostalCode(postalCode:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.GetPostalCodeViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.GetPostalCodeViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetPostalCodeViewModel",
+                        "printedName": "CreateCustomerSDK.GetPostalCodeViewModel",
+                        "usr": "s:17CreateCustomerSDK22GetPostalCodeViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC13getPostalCode06postalI010completionySS_ys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC13getPostalCode06postalI010completionySS_ys6ResultOyAA03GethieF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cardCommission",
+            "printedName": "cardCommission(address:amount:cardPan:cif:cvv2:depositId:description:expDate:pin:postalCode:requestSeq:additionalInfoDto:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FPDigitalBankingAdditionalInfo",
+                "printedName": "CreateCustomerSDK.FPDigitalBankingAdditionalInfo",
+                "usr": "s:17CreateCustomerSDK30FPDigitalBankingAdditionalInfoV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<CreateCustomerSDK.CardCommissionViewModel, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<CreateCustomerSDK.CardCommissionViewModel, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardCommissionViewModel",
+                        "printedName": "CreateCustomerSDK.CardCommissionViewModel",
+                        "usr": "s:17CreateCustomerSDK23CardCommissionViewModelC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC14cardCommission7address6amount0G3Pan3cif4cvv29depositId11description7expDate3pin10postalCode10requestSeq17additionalInfoDto10completionySS_s5Int64VS8SSiAA026FPDigitalBankingAdditionalY0Vys6ResultOyAA04CardheF0Cs5Error_pGctF",
+            "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC14cardCommission7address6amount0G3Pan3cif4cvv29depositId11description7expDate3pin10postalCode10requestSeq17additionalInfoDto10completionySS_s5Int64VS8SSiAA026FPDigitalBankingAdditionalY0Vys6ResultOyAA04CardheF0Cs5Error_pGctF",
+            "moduleName": "CreateCustomerSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK08FPCreateB9ViewModelC",
+        "mangledName": "$s17CreateCustomerSDK08FPCreateB9ViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetBasicInfoViewModel",
+        "printedName": "GetBasicInfoViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK21GetBasicInfoViewModelC",
+        "mangledName": "$s17CreateCustomerSDK21GetBasicInfoViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BasicInfoViewModel",
+        "printedName": "BasicInfoViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK18BasicInfoViewModelC",
+        "mangledName": "$s17CreateCustomerSDK18BasicInfoViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetCitiesViewModel",
+        "printedName": "GetCitiesViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK18GetCitiesViewModelC",
+        "mangledName": "$s17CreateCustomerSDK18GetCitiesViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetPostalCodeViewModel",
+        "printedName": "GetPostalCodeViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK22GetPostalCodeViewModelC",
+        "mangledName": "$s17CreateCustomerSDK22GetPostalCodeViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetStatesViewModel",
+        "printedName": "GetStatesViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK18GetStatesViewModelC",
+        "mangledName": "$s17CreateCustomerSDK18GetStatesViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetUserAddressesViewModel",
+        "printedName": "GetUserAddressesViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK25GetUserAddressesViewModelC",
+        "mangledName": "$s17CreateCustomerSDK25GetUserAddressesViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GuideViewModel",
+        "printedName": "GuideViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK14GuideViewModelC",
+        "mangledName": "$s17CreateCustomerSDK14GuideViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NewCustomerMobileSignUpViewModel",
+        "printedName": "NewCustomerMobileSignUpViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK03NewB21MobileSignUpViewModelC",
+        "mangledName": "$s17CreateCustomerSDK03NewB21MobileSignUpViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NewCustomerMobileVerifyViewModel",
+        "printedName": "NewCustomerMobileVerifyViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK03NewB21MobileVerifyViewModelC",
+        "mangledName": "$s17CreateCustomerSDK03NewB21MobileVerifyViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PerformTaskViewModel",
+        "printedName": "PerformTaskViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK20PerformTaskViewModelC",
+        "mangledName": "$s17CreateCustomerSDK20PerformTaskViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartCreateCustomerProcessViewModel",
+        "printedName": "StartCreateCustomerProcessViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK05StartaB16ProcessViewModelC",
+        "mangledName": "$s17CreateCustomerSDK05StartaB16ProcessViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProcessViewModel",
+        "printedName": "ProcessViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK16ProcessViewModelC",
+        "mangledName": "$s17CreateCustomerSDK16ProcessViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExceptionBeanViewModel",
+        "printedName": "ExceptionBeanViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK22ExceptionBeanViewModelC",
+        "mangledName": "$s17CreateCustomerSDK22ExceptionBeanViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZoomIdLicenseViewModel",
+        "printedName": "ZoomIdLicenseViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK22ZoomIdLicenseViewModelC",
+        "mangledName": "$s17CreateCustomerSDK22ZoomIdLicenseViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartOpenDepositProcessViewModel",
+        "printedName": "StartOpenDepositProcessViewModel",
+        "declKind": "Class",
+        "usr": "s:17CreateCustomerSDK32StartOpenDepositProcessViewModelC",
+        "mangledName": "$s17CreateCustomerSDK32StartOpenDepositProcessViewModelC",
+        "moduleName": "CreateCustomerSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/DigitalBanking\/FPDigitalBankingAdditionalInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/DigitalBanking\/FPDigitalBankingProcessEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 12,
+      "value": "\"Basic_Info\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/DigitalBanking\/FPDigitalBankingProcessEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 17,
+      "value": "\"Create_Customer\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/DigitalBanking\/FPDigitalBankingProcessEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 14,
+      "value": "\"Open_Deposit\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/DigitalBanking\/FPDigitalBankingProcessEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 10,
+      "value": "\"Get_Card\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/CreateCustomerPreStartParametersResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 10,
+      "value": "\"CONSTANT\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/CreateCustomerPreStartParametersResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 7,
+      "value": "\"INPUT\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/CustomerApprovedInfoValidationCheckResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 9,
+      "value": "\"ALLOWED\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/CustomerApprovedInfoValidationCheckResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 8,
+      "value": "\"DENIED\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/GetBasicInfoResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 14,
+      "value": "\"SERIALIZABLE\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/GetBasicInfoResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 8,
+      "value": "\"STRING\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Models\/StartCreateCustomerProcessStartResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 35,
+      "value": "\"CustomerIsAlreadyExistedException\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/Errors\/APIErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/Errors\/APIErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/Errors\/APIErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 3,
+      "value": "429"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/Errors\/APIErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 5,
+      "value": "-1001"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/Errors\/APIErrors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/Network\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 34,
+      "value": "\"https:\/\/en.farazpardazan.com\/en\/\""
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/ViewModels\/FPCreateCustomerViewModel.swift",
+      "kind": "Array",
+      "offset": 267,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kavankamangar\/Desktop\/createCusSDK\/CreateCustomerSDK\/CreateCustomerSDK\/ViewModels\/FPCreateCustomerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 18354,
+      "length": 4,
+      "value": "\"en\""
+    }
+  ]
+}
